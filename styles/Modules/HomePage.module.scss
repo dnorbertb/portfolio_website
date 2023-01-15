@@ -1,0 +1,72 @@
+@import "../variables.scss";
+@import "../animations.scss";
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10rem;
+
+  & .greeting {
+    text-align: center;
+    margin-bottom: 3rem;
+
+    & > * {
+      font-weight: 100;
+    }
+
+    &__hi {
+        display: block;
+        font-size: 4rem;
+        margin-bottom: -15px;
+        animation: makeVisible .8s .4s linear backwards;
+    }
+
+    &__primary {
+      font-size: 6rem;
+      animation: makeVisible 1s 1s linear backwards;
+
+      & strong {
+        font-weight: 400;
+      }
+    }
+
+    &__secondary {
+      display: block;
+      font-size: 3rem;
+      width: 15ch;
+      overflow: hidden;
+      white-space: nowrap;
+      font-weight: 100;
+      margin: 0 auto;
+      border-right: 2px solid transparent;
+      animation: typing 1.5s 1.5s steps(18) backwards, caret-blink .5s 1.3s 8 backwards;
+    }
+  }
+}
+
+.profile-image {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 99px;
+  margin-bottom: 3rem;
+  animation: scale .3s 2s linear backwards;
+}
+
+.accounts {
+  display: flex;
+  gap: 1rem;
+  animation: scale .3s 2s linear backwards;
+
+  &__icon {
+    height: 3rem;
+    width: 3rem;
+    fill: white;
+    
+    &:hover {
+      animation: wiggle .4s infinite linear;
+    }
+
+  }
+}

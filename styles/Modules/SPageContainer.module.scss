@@ -1,0 +1,10 @@
+@import '../../styles/variables.scss';
+
+.container {
+    max-width: $sbp-content-width;
+    padding: 1rem;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

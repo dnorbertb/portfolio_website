@@ -1,0 +1,59 @@
+@import "../animations.scss";
+@import "../variables.scss";
+
+.container {
+  padding: 1rem 2rem;
+  border: 3px solid currentColor;
+  border-radius: 10px;
+  background-color: $project-background;
+}
+
+.name {
+  font-size: 2.4rem;
+  font-weight: 400;
+
+  // @media screen and (min-width: $bp-2k) {
+  //   font-size: 3rem;
+  // }
+}
+
+.stack {
+  font-size: 1.2rem;
+  color: $text-gray;
+  margin-bottom: 1rem;
+
+  // @media screen and (min-width: $bp-2k) {
+  //   font-size: 1.4rem;
+  // }
+}
+
+.dsc {
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+
+  // @media screen and (min-width: $bp-2k) {
+  //   font-size: 2rem;
+  // }
+}
+
+.link,
+.link:visited,
+.link:active {
+  color: inherit;
+}
+
+.actions {
+  display: flex;
+  gap: 0.6rem;
+  justify-content: flex-end;
+}
+
+.icon {
+  height: 3rem;
+  width: 3rem;
+  fill: currentColor;
+
+  &:hover {
+    animation: wiggle 0.4s infinite linear;
+  }
+}
