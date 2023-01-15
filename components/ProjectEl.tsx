@@ -17,10 +17,10 @@ export default function ProjectEl({ name, stack, dsc, href, github }: Props) {
       <p className={styles.stack}>Stack: {stack}</p>
       <p className={styles.dsc}>{dsc}</p>
       <div className={styles.actions}>
-        <a href={github} className={styles.link} target="_blank">
+        <a href={github} className={styles.link} target="_blank" rel="noreferrer">
           <Icon className={styles.icon} svgPath={mdiGithub} />
         </a>
-        <a href={href} className={styles.link} target="_blank">
+        <a href={href} className={styles.link} target="_blank" rel="noreferrer">
           <Icon className={styles.icon} svgPath={mdiLinkVariant} />
         </a>
       </div>

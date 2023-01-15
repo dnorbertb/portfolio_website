@@ -1,7 +1,7 @@
 import "../styles/global.scss";
 import styles from "../styles/Modules/HomeLayout.module.scss";
 
-export default function RootLayout({ children }: { children: JSX.Element }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>
