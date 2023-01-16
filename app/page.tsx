@@ -16,13 +16,13 @@ export default function Page() {
       <img className={styles["profile-image"]} src="/me.jpg" alt="Memoji of me" />
       <div className={styles.accounts}>
         <a href="http://linkedin.com" target="_blank">
-          <Icon className="accounts__icon" svgPath={mdiLinkedin} />
+          <Icon className={styles["accounts__icon"]} svgPath={mdiLinkedin} />
         </a>
         <a href="http://github.com" target="_blank">
-          <Icon className="accounts__icon" svgPath={mdiGithub} />
+          <Icon className={styles["accounts__icon"]} svgPath={mdiGithub} />
         </a>
         <a href="http://stackoverflow.com" target="_blank">
-          <Icon className="accounts__icon" svgPath={mdiStackOverflow} />
+          <Icon className={styles["accounts__icon"]} svgPath={mdiStackOverflow} />
         </a>
       </div>
     </div>
