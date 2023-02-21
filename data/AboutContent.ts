@@ -13,7 +13,7 @@ export const pArr = [
     },
     {
         title: "Comment",
-        content: "On the beginning I would like to say that my profiles and accounts on different websites may not look the best. The reason is that I am a practical person and the time I would have to spend on them, I prefer to spend on learning something new or writing more lines of code. As I mentioned earlier, I have a lot of different knowledge, which allows me to quickly understand and learn new things. While learning web development, I wanted to get to know as many different tools as possible, I didn't focus on anything specific because I want to specialize in that I will need at work. I am currently able to work with popular frameworks such as React, Vue2, Vue3, Next or Nuxt and I also think that I will quickly get into Angular (something I have already done, I know the concepts) if necessary. I still have a lot to learn but with my learning speed and experienced people around me I will be progressing very quickly."
+        content: "As I mentioned earlier, I have a lot of different knowledge, which allows me to quickly understand and learn new things. While learning web development, I wanted to get to know as many different tools as possible, I didn't focus on anything specific because I want to specialize in that I will need at work. I am currently able to work with popular frameworks such as React, Vue2, Vue3, Next or Nuxt and I also think that I will quickly get into Angular (something I have already done, I know the concepts) if necessary. I still have a lot to learn but with my learning speed and experienced people around me I will be progressing very quickly."
     }
 ]
 
