@@ -28,7 +28,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <nav className={styles.nav}>
             <a href="/">Home page</a>
             <a href="about-me">About me</a>
-            <a href="projects">Projects</a>
           </nav>
           <div className={styles["bg-video"]}>
             <video className={styles["bg-video__content"]} autoPlay={true} muted={true} loop={true}>

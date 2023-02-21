@@ -1,7 +1,7 @@
 export default function Head() {
   return (
     <>
-      <title>NB - About</title>
+      <title>Norbert Bednarczyk - About me</title>
       <meta name="description" content="Read more about me!" />
     </>
   );

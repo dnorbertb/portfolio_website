@@ -1,8 +1,8 @@
 export default function Head() {
   return (
     <>
-      <title>NB - Home</title>
-      <meta name="description" content="Hire a smart front end developer!" />
+      <title>Norbert Bednarczyk</title>
+      <meta name="description" content="Norbert Bednarczyk - smart, fast learner, web developer!" />
     </>
   );
 }
