@@ -1,14 +1,32 @@
 import "../styles/global.scss";
 import styles from "../styles/Modules/HomeLayout.module.scss";
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <head>
         {/* favicon */}
-        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/favicon/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon/favicon-16x16.png"
+        />
         <link rel="manifest" href="/favicon/site.webmanifest" />
         {/* favicon */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -25,12 +43,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             NB
           </a>
           {children}
-          <nav className={styles.nav}>
-            <a href="/">Home page</a>
-            <a href="about-me">About me</a>
-          </nav>
+          <div>&nbsp;</div>
           <div className={styles["bg-video"]}>
-            <video className={styles["bg-video__content"]} autoPlay={true} muted={true} loop={true}>
+            <video
+              className={styles["bg-video__content"]}
+              autoPlay={true}
+              muted={true}
+              loop={true}
+            >
               <source src="videos/background.mp4" type="video/mp4" />
             </video>
           </div>

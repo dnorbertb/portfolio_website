@@ -25,36 +25,36 @@
   cursor: pointer;
 }
 
-.nav {
-  display: flex;
-  gap: 3rem;
-  padding-top: 2rem;
-  margin-bottom: 10rem;
-  animation: makeVisible .4s 2s linear backwards;
+// .nav {
+//   display: flex;
+//   gap: 3rem;
+//   padding-top: 2rem;
+//   margin-bottom: 10rem;
+//   animation: makeVisible .4s 2s linear backwards;
 
-  @media screen and (min-width: $bp-desktop) {
-    margin-bottom: 2rem;
-  }
+//   @media screen and (min-width: $bp-desktop) {
+//     margin-bottom: 2rem;
+//   }
 
-  & a,
-  & a:link,
-  & a:visited {
-    color: white;
-    text-transform: uppercase;
-    text-decoration: none;
+//   & a,
+//   & a:link,
+//   & a:visited {
+//     color: white;
+//     text-transform: uppercase;
+//     text-decoration: none;
 
-    &::before {
-      content: "\003e";
-      display: inline-block;
-      transform: translateX(-3px) translateY(-1px);
-      transition: transform 0.1s;
-    }
+//     &::before {
+//       content: "\003e";
+//       display: inline-block;
+//       transform: translateX(-3px) translateY(-1px);
+//       transition: transform 0.1s;
+//     }
 
-    &:hover::before {
-      transform: translateX(1px) translateY(-1px);
-    }
-  }
-}
+//     &:hover::before {
+//       transform: translateX(1px) translateY(-1px);
+//     }
+//   }
+// }
 
 .bg-video {
   position: absolute;
