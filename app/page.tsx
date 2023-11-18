@@ -32,15 +32,17 @@ export default function Page() {
         <a
           href="https://www.linkedin.com/in/norbert-bednarczyk-931692227/"
           target="_blank"
+          rel="noreferrer"
         >
           <Icon className={styles["accounts__icon"]} svgPath={mdiLinkedin} />
         </a>
-        <a href="https://github.com/dnorbertb" target="_blank">
+        <a href="https://github.com/dnorbertb" target="_blank" rel="noreferrer">
           <Icon className={styles["accounts__icon"]} svgPath={mdiGithub} />
         </a>
         <a
           href="https://stackoverflow.com/users/17151859/norbert"
           target="_blank"
+          rel="noreferrer"
         >
           <Icon
             className={styles["accounts__icon"]}
